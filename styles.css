@@ -1,0 +1,36 @@
+header img{
+    height: 150px;
+}
+header{
+    text-align:center;
+    background-color:lightblue;
+    justify-content: space-between;
+    padding:10px;
+}
+nav{
+    margin-top: 10px;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+    color:gray;
+    padding:5px 15px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    text-decoration: none;
+    color:black;
+    border-radius: 0px 20px 0px 20px;
+    transition: 1s;
+    &:hover{
+        color: black;
+    }
+}
+nav a:hover{
+    color: bisque;
+    color:deepskyblue;
+    background-color:black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px 3px;
+    transition: 0.3s;
+}
